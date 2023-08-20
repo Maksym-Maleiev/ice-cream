@@ -1,3 +1,6 @@
-body{
-    font-family: 'DM Sans';
+body {
+  font-family: 'DM Sans';
+  font-size: $fon-size;
+  font-weight: 500;
+  color: getColor('main-color');
 }
