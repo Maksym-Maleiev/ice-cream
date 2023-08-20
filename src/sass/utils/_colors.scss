@@ -1,0 +1,14 @@
+$colors: (
+  'main-color': #fff,
+  'accent-color': #d41443,
+  'title-color': #ffa5ba,
+  'secondary-color': #000,
+  'third-color': #907e82,
+  'icon-color': #ffa5ba,
+  'main-bg-color': #ffb8ca,
+  'secondary-bg-color': #fff5f6,
+);
+
+@function getColor($key) {
+  @return map-get($colors, $key);
+}
