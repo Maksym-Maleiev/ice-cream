@@ -5,8 +5,9 @@ $colors: (
   'secondary-color': #000,
   'third-color': #907e82,
   'icon-color': #ffa5ba,
-  'main-bg-color': #ffb8ca,
-  'secondary-bg-color': #fff5f6,
+  'main-bg-color': #fff,
+  'secondary-bg-color': #ffb8ca,
+  'third-bg-color': #fff5f6,
 );
 
 @function getColor($key) {
