@@ -3,4 +3,11 @@ body {
   font-size: $font-size;
   font-weight: 500;
   color: getColor('main-color');
+  background-color: getColor('main-bg-color');
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
 }
