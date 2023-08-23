@@ -1,0 +1,141 @@
+.products-list {
+  @extend %list;
+
+  color: getColor('main-color');
+
+  @media screen and (min-width: $tablet) {
+    display: flex;
+  }
+}
+
+.products-list__item {
+  position: relative;
+  padding: 160px 40px 40px;
+  text-align: center;
+  border-radius: 24px;
+
+  @media screen and (max-width: 767px) {
+    &:not(:last-child) {
+      margin-bottom: 130px;
+    }
+  }
+}
+
+.products-list__item:not(:last-child) {
+  @media screen and (max-width: 767px) {
+    margin-bottom: 130px;
+  }
+
+  @media screen and (min-width: $tablet) {
+    margin-right: 20px;
+  }
+
+  @media screen and (min-width: $desktop) {
+    margin-right: 30px;
+  }
+}
+
+.products-list__item::before {
+  content: '';
+  position: absolute;
+  top: 10px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  display: block;
+  width: 249px;
+  height: 252px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.products-list__item:nth-child(1) {
+  background-color: #ffb8ca;
+}
+
+.products-list__item:nth-child(1)::before {
+  background-image: url('/src/images/product_1-320.png');
+
+  @media (min-device-pixel-ratio: 2),
+    (-webkit-min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    & {
+      background-image: url('/src/images/product_1-320@2x.png');
+    }
+  }
+}
+
+.products-list__item:nth-child(2) {
+  background-color: #f0d1a5;
+}
+
+.products-list__item:nth-child(2)::before {
+  background-image: url('/src/images/product_2-320.png');
+
+  @media (min-device-pixel-ratio: 2),
+    (-webkit-min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    & {
+      background-image: url('/src/images/product_2-320@2x.png');
+    }
+  }
+}
+
+.products-list__item:nth-child(3) {
+  background-color: #c2e297;
+}
+
+.products-list__item:nth-child(3)::before {
+  background-image: url('/src/images/product_3-320.png');
+
+  @media (min-device-pixel-ratio: 2),
+    (-webkit-min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    & {
+      background-image: url('/src/images/product_3-320@2x.png');
+    }
+  }
+}
+
+.content__title {
+  margin-bottom: 30px;
+  font-family: Titan One;
+  font-size: 20px;
+  line-height: 1.15;
+  letter-spacing: 0.8px;
+  text-transform: uppercase;
+}
+
+.content__description {
+  margin-bottom: 30px;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1.5;
+  letter-spacing: 0.56px;
+}
+
+.btn-arrow {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+
+  padding: 0;
+  margin: 0;
+  border: none;
+  background-color: transparent;
+
+  background-image: url('/src/images/arrow-btn.png');
+
+  @media (min-device-pixel-ratio: 2),
+    (-webkit-min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .box {
+      background-image: url('/src/images/arrow-btn@2x.png');
+    }
+  }
+}
