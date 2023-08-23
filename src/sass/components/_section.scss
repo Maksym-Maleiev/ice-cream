@@ -11,6 +11,18 @@
   line-height: normal;
   letter-spacing: 1.36px;
   text-transform: uppercase;
+
+  @media screen and (min-width: $tablet) {
+    font-size: 48px;
+    line-height: 1.15;
+    letter-spacing: 1.92px;
+  }
+
+  @media screen and (min-width: $desktop) {
+    font-size: 58px;
+    line-height: 1.14;
+    letter-spacing: 3.48px;
+  }
 }
 
 .section__subtitle {
@@ -21,4 +33,15 @@
   font-size: 18px;
   line-height: 1.17;
   text-transform: uppercase;
+
+  @media screen and (min-width: $tablet) {
+    font-size: 26px;
+    line-height: 1.15;
+  }
+
+  @media screen and (min-width: $desktop) {
+    font-size: 30px;
+    line-height: 1.13;
+    letter-spacing: 1.2px;
+  }
 }
