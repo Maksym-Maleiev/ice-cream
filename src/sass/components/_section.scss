@@ -25,7 +25,7 @@
 }
 
 .section__subtitle {
-@include fontStyles(18px, 400, 1.17);
+  @include fontStyles(18px, 400, 1.17);
 
   display: block;
   color: getColor('title-color');
@@ -34,11 +34,15 @@
   text-transform: uppercase;
 
   @media screen and (min-width: $tablet) {
-@include fontStyles(26px, 400, 1.15);
+    @include fontStyles(26px, 400, 1.15);
   }
 
   @media screen and (min-width: $desktop) {
     @include fontStyles(30px, 400, 1.13);
     letter-spacing: 1.2px;
+  }
+
+  &--text-left {
+    text-align: start;
   }
 }
