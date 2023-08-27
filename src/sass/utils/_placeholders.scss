@@ -7,3 +7,12 @@
 %link {
   text-decoration: none;
 }
+
+%button {
+  padding: 12px 25px;
+  color: getColor('accent-color');
+  background-color: getColor('main-bg-color');
+  border-radius: 20px;
+  border: none;
+  text-align: center;
+}
