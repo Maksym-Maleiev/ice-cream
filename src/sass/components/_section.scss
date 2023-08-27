@@ -22,6 +22,10 @@
     @include fontStyles(58px, 400, 1.14);
     letter-spacing: 3.48px;
   }
+
+  &--margin {
+    margin-bottom: 26px;
+  }
 }
 
 .section__subtitle {
