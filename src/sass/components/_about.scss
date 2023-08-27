@@ -1,0 +1,96 @@
+.about {
+  background-color: getColor('third-bg-color');
+
+  @media screen and (max-width: 767px) {
+    background-image: url('/src/images/milk-bg-320.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 50% 80%;
+
+    @media (min-device-pixel-ratio: 2),
+      (-webkit-min-device-pixel-ratio: 2),
+      (min-resolution: 192dpi),
+      (min-resolution: 2dppx) {
+      background-image: url('/src/images/milk-bg-320@2x.png');
+    }
+  }
+
+  @media screen and (min-width: $desktop) {
+    background-image: url('/src/images/milk-bg-1200.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 50% 80%;
+
+    @media (min-device-pixel-ratio: 2),
+      (-webkit-min-device-pixel-ratio: 2),
+      (min-resolution: 192dpi),
+      (min-resolution: 2dppx) {
+      background-image: url('/src/images/milk-bg-1200@2x.png');
+    }
+  }
+}
+
+.about__wrapper {
+  @media screen and (min-width: $tablet) {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  @media screen and (min-width: $desktop) {
+    align-items: center;
+  }
+}
+
+.about-content {
+  @media screen and (max-width: 767px) {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  @media screen and (min-width: $tablet) and (max-width: 1199px) {
+    flex-basis: 50%;
+  }
+
+  @media screen and (min-width: $desktop) {
+    flex-basis: 470px;
+    margin-left: 75px;
+  }
+}
+
+.about-content__text {
+  margin-bottom: 39px;
+  color: getColor('secondary-color');
+
+  @include fontStyles(12px, 500, 1.62);
+
+  @media screen and (min-width: $tablet) {
+    @include fontStyles(14px, 500, 1.76);
+  }
+
+  @media screen and (min-width: $desktop) {
+    @include fontStyles(16px, 500, 1.76);
+    letter-spacing: 0.64px;
+  }
+
+  &--color {
+    margin-bottom: 17px;
+    color: getColor('third-color');
+  }
+
+  &--margin {
+    display: block;
+    margin: 0;
+    padding-top: 35px;
+  }
+}
+
+.about-content__btn {
+  @extend %button;
+
+  @extend %link;
+
+  @include fontStyles(14px, 700, 1.29);
+
+  display: inline-block;
+  padding: 12px 37px;
+}
