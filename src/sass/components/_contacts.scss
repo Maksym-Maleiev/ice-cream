@@ -1,0 +1,15 @@
+.contacts {
+  background-color: getColor('third-bg-color');
+}
+
+.contacts-list {
+  @extend %list;
+}
+
+.contacts-list__subtitle {
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 1.86;
+  letter-spacing: 0.48px;
+  text-transform: uppercase;
+}
