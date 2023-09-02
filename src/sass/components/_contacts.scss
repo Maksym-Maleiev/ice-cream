@@ -138,6 +138,10 @@
   @media screen and (min-width: $tablet) {
     font-size: 14px;
   }
+
+  @media screen and (min-width: $desktop) {
+    font-size: 16px;
+  }
 }
 
 .contact__link {
