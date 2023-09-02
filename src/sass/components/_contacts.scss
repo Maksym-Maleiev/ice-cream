@@ -145,5 +145,6 @@
 }
 
 .contact__link {
+  display: block;
   @extend %link;
 }
