@@ -29,6 +29,10 @@
   padding: 43px 20px;
   border-radius: 24px;
   background-color: #fff;
+
+  @media screen and (min-width: $tablet) {
+    padding: 50px 30px;
+  }
 }
 
 .contacts-list__item:not(:last-child) {
@@ -86,6 +90,16 @@
   font-weight: 500;
   line-height: 1.86;
   letter-spacing: 0.48px;
+
+  @media screen and (min-width: $tablet) {
+    font-size: 14px;
+    letter-spacing: 0.56px;
+  }
+
+  @media screen and (min-width: $desktop) {
+    font-size: 16px;
+    letter-spacing: 0.64px;
+  }
 }
 
 .address__title {
