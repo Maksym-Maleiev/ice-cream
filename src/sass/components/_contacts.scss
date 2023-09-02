@@ -117,6 +117,12 @@
     font-size: 14px;
     line-height: 1.66;
   }
+
+  @media screen and (min-width: $desktop) {
+    font-size: 16px;
+    line-height: 1.83;
+    letter-spacing: 0.64px;
+  }
 }
 
 .work-schedule__item:not(:last-child) {
@@ -128,6 +134,10 @@
   font-size: 12px;
   font-weight: 500;
   line-height: 1.86;
+
+  @media screen and (min-width: $tablet) {
+    font-size: 14px;
+  }
 }
 
 .contact__link {
