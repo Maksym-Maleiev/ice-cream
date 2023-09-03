@@ -153,6 +153,10 @@
   @extend %link;
 }
 
+.contacts__wrapper {
+  text-align: center;
+}
+
 .contacts__btn {
   @extend %button;
 
@@ -163,8 +167,10 @@
   font-size: 16px;
   font-weight: 700;
   line-height: 1.3;
+  text-align: center;
 
   &--secondary {
+    margin-bottom: 10px;
     background-color: #d41342;
     color: #fff;
   }
