@@ -26,6 +26,8 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+
+    margin-bottom: 81px;
   }
 }
 
@@ -155,6 +157,12 @@
 
 .contacts__wrapper {
   text-align: center;
+
+  @media screen and (min-width: $tablet) {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
 }
 
 .contacts__btn {
@@ -164,8 +172,8 @@
 
   display: inline-block;
   padding: 12px 17px;
-  min-width: 161px;
 
+  min-width: 160px;
   font-size: 16px;
   font-weight: 700;
   line-height: 1.3;
@@ -175,6 +183,12 @@
     margin-bottom: 10px;
     background-color: #d41342;
     color: #fff;
+  }
+}
+
+.contacts__btn:nth-child(1) {
+  @media screen and (min-width: $tablet) {
+    margin-right: 20px;
   }
 }
 
