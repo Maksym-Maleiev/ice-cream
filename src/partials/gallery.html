@@ -1,16 +1,21 @@
 <section class="section gallery">
-  <div class="container">
-    <picture>
-      <source
-        srcset="
-          /src/images/collage-320.png    1x,
-          /src/images/collage-320@2x.png 2x
-        "
-        media="(max-width: 767px)"
-        type="img/png"
-      />
+  <picture>
+    <source
+      srcset="/src/images/collage-320.png 1x, /src/images/collage-320@2x.png 2x"
+      media="(max-width: 767px)"
+      type="img/png"
+    />
 
-      <img src="/src/images/collage-1200.png" alt="collage" />
-    </picture>
-  </div>
+    <source
+      srcset="
+        /src/images/collage-320.webp    1x,
+        /src/images/collage-320@2x.webp 2x
+      "
+      media="(max-width: 767px)"
+      type="img/webp"
+    />
+
+    <img src="/src/images/collage-1200.png" alt="collage" />
+  </picture>
+  <!-- <div class="container"></div> -->
 </section>
