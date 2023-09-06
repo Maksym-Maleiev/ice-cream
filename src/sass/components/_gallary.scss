@@ -1,9 +1,46 @@
 .gallery {
-  position: relative;
-  background-image: linear-gradient(to bottom, #fff5f6 50%, #fff 50%);
+  // position: relative;
+  // padding-top: 181px;
+  // padding-bottom: 181px;
+
+  background-image: linear-gradient(to bottom, #fff5f6 47%, #fff 47%);
+
+  // @media screen and (min-width: $tablet) {
+  //   padding-top: 132px;
+  //   padding-bottom: 132px;
+  // }
+
+  // @media screen and (min-width: $desktop) {
+  //   padding-top: 215px;
+  //   padding-bottom: 215px;
+  // }
+
+  @media screen and (min-width: $tablet) {
+    background-image: linear-gradient(to bottom, #fff5f6 45%, #fff 45%);
+  }
+
+  @media screen and (min-width: $desktop) {
+    background-image: linear-gradient(to bottom, #fff5f6 44%, #fff 44%);
+  }
 }
 
 .gallery__thumb {
-  position: absolute;
-  margin: 0 auto;
+  @include centeredFlex();
+
+  // position: absolute;
+  // top: 50%;
+  // left: 50%;
+  // transform: translate(-50%, -50%);
+  // width: 364px;
+  // height: 122px;
+
+  // @media screen and (min-width: $tablet) {
+  //   width: 786px;
+  //   height: 264px;
+  // }
+
+  // @media screen and (min-width: $desktop) {
+  //   width: 1280px;
+  //   height: 430px;
+  // }
 }
