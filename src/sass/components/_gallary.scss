@@ -1,8 +1,6 @@
 .gallery {
-  position: relative;
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  align-items: baseline;
   justify-content: center;
 
   background-image: linear-gradient(to bottom, #fff5f6 50%, #fff 50%);
