@@ -1,13 +1,18 @@
+.menu-toggle__icon-close {
+  margin-bottom: 32px;
+  fill: getColor('main-color');
+}
+
 .menu-container {
   display: flex;
   flex-direction: column;
 
   position: fixed;
   top: 0;
-  left: 0;
-  width: 100vw;
+  right: 0;
+  width: 250px;
   height: 100%;
-  padding: 20px;
+  padding: 60px 20px 20px;
   background-color: #e17992;
   z-index: 999;
 
@@ -25,8 +30,44 @@
 
 .menu-container .menu-toggle {
   position: absolute;
-  top: 0;
-  right: 15px;
+  top: 7px;
+  right: 20px;
 
   color: getColor('white-color');
+}
+
+.mobile-menu {
+  @extend %list;
+}
+
+.mobile-menu__btn {
+  @extend %link;
+
+  @extend %button;
+
+  display: block;
+  margin-bottom: 32px;
+
+  color: getColor('accent-color');
+  text-align: center;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.5;
+}
+
+.mobile-menu__btn > svg {
+  margin-left: 16px;
+}
+
+.mobile-menu__item:not(:last-child) {
+  margin-bottom: 20px;
+}
+
+.mobile-menu__link {
+  @extend %link;
+
+  color: #fff;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1.29;
 }
