@@ -1,0 +1,13 @@
+.page-header {
+  background-color: getColor('secondary-bg-color');
+}
+
+.logo {
+  display: inline-block;
+  width: 199px;
+  height: 50px;
+  background-image: url('/src/images/logo.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
