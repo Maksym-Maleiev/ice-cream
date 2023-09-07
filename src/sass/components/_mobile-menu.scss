@@ -59,12 +59,11 @@
   margin-left: 16px;
 }
 
-.mobile-menu__item:not(:last-child) {
-  margin-bottom: 20px;
-}
-
 .mobile-menu__link {
   @extend %link;
+
+  display: block;
+  padding: 11px 0px 11px;
 
   color: #fff;
   font-size: 14px;
