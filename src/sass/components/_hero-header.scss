@@ -43,3 +43,78 @@
     fill: rgba(199, 19, 62, 1);
   }
 }
+
+.hero-section {
+  position: relative;
+}
+
+.hero-section__content {
+  position: absolute;
+  left: 20px;
+  top: 50%;
+  transform: translate(0, -50%);
+}
+
+.hero-section__title {
+  margin-bottom: 20px;
+
+  color: #fff;
+  font-family: Titan One;
+  font-size: 26px;
+  font-weight: 400;
+  line-height: 1.14;
+  letter-spacing: 1.04px;
+  text-transform: uppercase;
+
+  &--accent {
+    color: getColor('accent-color');
+    font-family: Titan One;
+    font-size: 48px;
+    font-weight: 400;
+    text-transform: uppercase;
+  }
+}
+
+.auth-nav {
+  @extend %list;
+
+  display: flex;
+  align-items: center;
+}
+
+.auth-nav__link {
+  @extend %link;
+}
+
+.hero-section__ice-bg {
+  // position: absolute;
+  right: 32px;
+  bottom: 0;
+  width: 171px;
+  height: 410px;
+  z-index: -1;
+
+  background-image: url('/src/images/ice-hero-320.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    background-image: url('/src/images/ice-hero-320@2x.png');
+  }
+}
+
+.hero-section__cicle-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -2;
+
+  display: block;
+  width: 346px;
+  height: 344px;
+  border-radius: 50%;
+  background-color: #ffa5ba;
+}
