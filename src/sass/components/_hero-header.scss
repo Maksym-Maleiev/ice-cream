@@ -1,5 +1,9 @@
-.page-header {
+.header-hero {
   background-color: getColor('secondary-bg-color');
+}
+
+.page-header {
+  margin-bottom: 27px;
 }
 
 .site-nav {
@@ -23,8 +27,8 @@
 
   margin: 0;
   padding: 0;
-  margin-left: auto;
   background-color: transparent;
+  fill: getColor('accent-color');
   cursor: pointer;
   border: none;
   border-radius: 50%;
@@ -36,6 +40,6 @@
 
   &:hover,
   &:focus {
-    fill: #d41342;
+    fill: rgba(199, 19, 62, 1);
   }
 }
