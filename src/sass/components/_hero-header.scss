@@ -1,4 +1,6 @@
 .header-hero {
+  position: relative;
+  height: 502px;
   background-color: getColor('secondary-bg-color');
 }
 
@@ -44,15 +46,10 @@
   }
 }
 
-.hero-section {
-  position: relative;
-}
-
 .hero-section__content {
   position: absolute;
-  left: 20px;
-  top: 50%;
-  transform: translate(0, -50%);
+  left: 0;
+  bottom: 0;
 }
 
 .hero-section__title {
@@ -88,8 +85,9 @@
 
 .hero-section__cicle-bg {
   position: absolute;
-  top: 0;
-  right: -62;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   z-index: 1;
 
   display: block;
