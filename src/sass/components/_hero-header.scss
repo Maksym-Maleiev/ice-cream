@@ -86,13 +86,26 @@
   @extend %link;
 }
 
+.hero-section__cicle-bg {
+  position: absolute;
+  top: 0;
+  right: -62;
+  z-index: 1;
+
+  display: block;
+  width: 346px;
+  height: 344px;
+  border-radius: 50%;
+  background-color: #ffa5ba;
+}
+
 .hero-section__ice-bg {
-  // position: absolute;
+  position: absolute;
   right: 32px;
   bottom: 0;
   width: 171px;
   height: 410px;
-  z-index: -1;
+  z-index: 2;
 
   background-image: url('/src/images/ice-hero-320.png');
   background-size: contain;
@@ -104,17 +117,4 @@
     (min-resolution: 2dppx) {
     background-image: url('/src/images/ice-hero-320@2x.png');
   }
-}
-
-.hero-section__cicle-bg {
-  position: absolute;
-  top: 0;
-  left: 0;
-  z-index: -2;
-
-  display: block;
-  width: 346px;
-  height: 344px;
-  border-radius: 50%;
-  background-color: #ffa5ba;
 }
