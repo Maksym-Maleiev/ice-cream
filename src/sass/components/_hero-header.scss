@@ -1,12 +1,12 @@
-.header-hero {
-  position: relative;
-  height: 502px;
-  background-color: getColor('secondary-bg-color');
-}
+// .header-hero {
+//   position: relative;
+//   height: 502px;
+//   background-color: getColor('secondary-bg-color');
+// }
 
 .page-header {
-  margin-bottom: 27px;
-  padding: 6px 0px;
+  padding: 20px 0px;
+  background-color: getColor('secondary-bg-color');
 }
 
 .site-nav {
@@ -48,7 +48,10 @@
 }
 
 .hero-section {
+  position: relative;
   max-width: 480px;
+  height: 420px;
+  background-color: getColor('secondary-bg-color');
 }
 
 .hero-section__content {
