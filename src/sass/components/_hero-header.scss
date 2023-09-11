@@ -74,15 +74,26 @@
   }
 }
 
-.auth-nav {
+.hero-nav {
   @extend %list;
 
   display: flex;
   align-items: center;
 }
 
-.auth-nav__link {
+.hero-nav__btn {
   @extend %link;
+
+  @extend %button;
+
+  font-size: 8px;
+  font-weight: 400;
+  line-height: 1.25;
+
+  &--secondary {
+    color: getColor('main-color');
+    background-color: getColor('accent-color');
+  }
 }
 
 .hero-section__cicle-bg {
