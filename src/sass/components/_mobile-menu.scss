@@ -8,10 +8,10 @@
 
   position: fixed;
   top: 0;
-  right: calc(250px - 51%);
+  right: 0;
   width: 250px;
   height: 100%;
-  padding: 90px 20px 20px;
+  padding: 60px 20px 20px;
   background-color: #e17992;
   z-index: 999;
 
@@ -29,7 +29,7 @@
 
 .menu-container .menu-toggle {
   position: absolute;
-  top: 25px;
+  top: 10px;
   right: 20px;
 
   color: getColor('white-color');
