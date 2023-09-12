@@ -1,6 +1,8 @@
 .page-header {
   padding-top: 6px;
   background-color: getColor('secondary-bg-color');
+
+  overflow: hidden;
 }
 
 .site-nav {
