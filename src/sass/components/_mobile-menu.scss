@@ -64,7 +64,6 @@
   padding: 11px 0px 11px;
 
   color: #fff;
-  font-size: 14px;
-  font-weight: 700;
-  line-height: 1.29;
+
+  @include fontStyles(14px, 700, 1.29);
 }
