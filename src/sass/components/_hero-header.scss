@@ -49,9 +49,12 @@
 
 .hero-section {
   position: relative;
-  max-width: 480px;
   height: 420px;
   background-color: getColor('secondary-bg-color');
+
+  @media screen and (min-width: $tablet) {
+    height: 297px;
+  }
 }
 
 .hero-section__content {
