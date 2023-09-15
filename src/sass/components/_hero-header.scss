@@ -142,7 +142,9 @@
   }
 
   @media screen and (min-width: $tablet) {
-    right: 213px;
+    right: 344px;
+    width: 143px;
+    height: 336px;
     background-image: url('/src/images/ice-hero-768.png');
 
     @media (min-device-pixel-ratio: 2),
