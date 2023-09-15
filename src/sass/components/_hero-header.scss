@@ -3,6 +3,10 @@
   background-color: getColor('secondary-bg-color');
 
   overflow: hidden;
+
+  @media screen and (min-width: $tablet) {
+    padding-top: 37px;
+  }
 }
 
 .site-nav {
