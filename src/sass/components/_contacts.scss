@@ -60,9 +60,8 @@
   padding: 0px 30px;
   margin-bottom: 25px;
 
-  font-size: 12px;
-  font-weight: 500;
-  line-height: 1.86;
+  @include fontStyles(12px, 500, 1.86);
+
   letter-spacing: 0.48px;
   text-align: center;
   text-transform: uppercase;
