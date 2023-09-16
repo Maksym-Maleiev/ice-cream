@@ -113,9 +113,8 @@
 .address__description,
 .contact__link {
   color: getColor('third-color');
-  font-size: 12px;
-  font-weight: 500;
-  line-height: 1.5;
+
+  @include fontStyles(12px, 500, 1.5);
 
   @media screen and (min-width: $tablet) {
     font-size: 14px;
@@ -135,9 +134,7 @@
 
 .work-schedule__time {
   color: getColor('title-color');
-  font-size: 12px;
-  font-weight: 500;
-  line-height: 1.86;
+  @include fontStyles(12px, 500, 1.86);
 
   @media screen and (min-width: $tablet) {
     font-size: 14px;
