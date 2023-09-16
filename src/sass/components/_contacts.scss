@@ -91,9 +91,8 @@
 .address__title,
 .work-schedule__day {
   color: getColor('secondary-color');
-  font-size: 12px;
-  font-weight: 500;
-  line-height: 1.86;
+
+  @include fontStyles(12px, 500, 1.86);
   letter-spacing: 0.48px;
 
   @media screen and (min-width: $tablet) {
