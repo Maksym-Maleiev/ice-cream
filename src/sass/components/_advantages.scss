@@ -85,9 +85,7 @@
 .advantages-list__subtitle {
   color: getColor('accent-color');
   font-family: Titan One;
-  font-size: 36px;
-  font-weight: 400;
-  line-height: 1.14;
+  @include fontStyles(36px, 400, 1.14);
   letter-spacing: 1.44px;
   text-transform: uppercase;
 }
