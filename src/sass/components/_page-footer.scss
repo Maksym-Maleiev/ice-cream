@@ -72,9 +72,8 @@
   @extend %link;
 
   color: #000;
-  font-size: 12px;
-  font-weight: 700;
-  line-height: 1.86;
+
+  @include fontStyles(12px, 700, 1.86);
 
   &--accent {
     color: getColor('accent-color');
