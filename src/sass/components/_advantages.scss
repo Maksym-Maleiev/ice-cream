@@ -92,7 +92,5 @@
 
 .advantages-list__text {
   color: getColor('secondary-color');
-  font-size: 12px;
-  font-weight: 700;
-  line-height: 1.7;
+  @include fontStyles(12px, 700, 1.7);
 }
