@@ -90,9 +90,9 @@
 
 .copyright__text {
   color: #907e82;
-  font-size: 14px;
-  font-weight: 700;
-  line-height: 1.52;
+
+  @include fontStyles(14px, 700, 1.52);
+
   text-align: center;
 
   @media screen and (max-width: 767px) {
