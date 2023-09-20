@@ -170,6 +170,7 @@
   position: absolute;
   right: 34px;
   bottom: 28px;
+  max-width: 200px;
 
   display: flex;
   align-items: center;
@@ -181,4 +182,17 @@
 }
 
 .hero-section-tablet__bg-milk {
+  width: 124px;
+  height: 126px;
+
+  background-image: url('/src/images/hero-milk-768.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    background-image: url('/src/images/hero-milk-768@2x.png');
+  }
 }
