@@ -76,6 +76,14 @@
   letter-spacing: 1.04px;
   text-transform: uppercase;
 
+  @media screen and (min-width: $tablet) {
+    width: 162px;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 1.14;
+    letter-spacing: 0.88px;
+  }
+
   &--accent {
     color: getColor('accent-color');
     font-family: Titan One;
