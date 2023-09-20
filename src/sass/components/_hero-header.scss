@@ -168,9 +168,9 @@
 
 .hero-section-tablet {
   position: absolute;
-  right: 34px;
+  left: 34px;
   bottom: 28px;
-  max-width: 200px;
+  width: 175px;
 
   display: flex;
   align-items: center;
@@ -182,6 +182,7 @@
 }
 
 .hero-section-tablet__bg-milk {
+  display: block;
   width: 124px;
   height: 126px;
 
