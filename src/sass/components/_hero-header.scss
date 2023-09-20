@@ -168,6 +168,8 @@
 
 .hero-section-tablet {
   position: absolute;
+  right: 34px;
+  bottom: 28px;
 
   @media screen and (max-width: 767px) {
     display: none;
