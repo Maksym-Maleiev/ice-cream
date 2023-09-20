@@ -168,9 +168,7 @@
 
 .hero-section-tablet {
   position: absolute;
-  left: 34px;
   bottom: 28px;
-  width: 175px;
 
   display: flex;
   align-items: center;
@@ -182,7 +180,8 @@
 }
 
 .hero-section-tablet__bg-milk {
-  display: block;
+  display: flex;
+  flex-grow: 1;
   width: 124px;
   height: 126px;
 
@@ -196,6 +195,10 @@
     (min-resolution: 2dppx) {
     background-image: url('/src/images/hero-milk-768@2x.png');
   }
+}
+
+.hero-section-tablet__content {
+  width: 114px;
 }
 
 .hero-section-tablet__text {
