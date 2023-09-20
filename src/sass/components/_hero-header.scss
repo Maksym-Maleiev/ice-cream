@@ -165,3 +165,14 @@
     }
   }
 }
+
+.hero-section-tablet {
+  position: absolute;
+
+  @media screen and (max-width: 767px) {
+    display: none;
+  }
+}
+
+.hero-section-tablet__bg-milk {
+}
