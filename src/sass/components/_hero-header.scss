@@ -202,6 +202,7 @@
 }
 
 .hero-section-tablet__text {
+  margin-bottom: 7px;
   font-size: 8px;
   font-weight: 400;
   line-height: 1.5;
@@ -210,4 +211,5 @@
 .hero-section-tablet .btn-arrow {
   width: 18px;
   height: 18px;
+  background-size: contain;
 }
