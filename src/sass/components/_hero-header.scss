@@ -276,6 +276,10 @@
   }
 }
 
+.cafe-list {
+  @extend %list;
+}
+
 .cafe-list__text {
   font-size: 8px;
   font-weight: 400;
