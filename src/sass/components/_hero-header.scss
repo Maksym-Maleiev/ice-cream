@@ -277,9 +277,17 @@
 }
 
 .cafe-list__text {
-  font-family: DM Sans;
   font-size: 8px;
-  font-style: normal;
   font-weight: 400;
   line-height: 1.25;
+
+  &--accent {
+    color: #d41443;
+    font-family: Titan One;
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 1.14;
+    letter-spacing: 1.12px;
+    text-transform: uppercase;
+  }
 }
