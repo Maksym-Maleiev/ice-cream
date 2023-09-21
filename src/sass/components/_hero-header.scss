@@ -37,6 +37,8 @@
   border-radius: 50%;
   outline: none;
 
+  z-index: 2;
+
   @media screen and (min-width: $desktop) {
     display: none;
   }
