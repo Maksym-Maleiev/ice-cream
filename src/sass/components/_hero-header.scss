@@ -25,6 +25,12 @@
   background-position: center;
 }
 
+.site-nav__wrapper {
+  display: flex;
+  align-items: center;
+  z-index: 2;
+}
+
 .menu-toggle {
   display: inline-flex;
 
