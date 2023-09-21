@@ -278,6 +278,10 @@
 
 .cafe-list {
   @extend %list;
+
+  position: absolute;
+  right: 0;
+  bottom: 205px;
 }
 
 .cafe-list__text {
