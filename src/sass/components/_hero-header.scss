@@ -284,6 +284,10 @@
   bottom: 205px;
 }
 
+.cafe-list__item:not(:last-child) {
+  margin-bottom: 14px;
+}
+
 .cafe-list__text {
   position: relative;
   font-size: 8px;
