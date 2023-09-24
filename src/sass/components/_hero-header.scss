@@ -304,6 +304,8 @@
 .cafe-list__text::before {
   content: '';
   position: absolute;
+  top: 0;
+  right: 0;
 
   display: block;
   width: 16px;
