@@ -289,6 +289,7 @@
   font-size: 8px;
   font-weight: 400;
   line-height: 1.25;
+  text-align: right;
 
   &--accent {
     color: #d41443;
@@ -311,6 +312,7 @@
   width: 16px;
   height: 16px;
   background-color: #fff;
+  border-radius: 50%;
 }
 
 .cafe-list__text--accent::before {
