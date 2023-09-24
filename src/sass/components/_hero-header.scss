@@ -303,6 +303,8 @@
 
 .cafe-list__text::before {
   content: '';
+  position: absolute;
+
   display: block;
   width: 16px;
   height: 16px;
