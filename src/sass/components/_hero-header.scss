@@ -299,3 +299,7 @@
     text-transform: uppercase;
   }
 }
+
+.cafe-list__text::before {
+  content: '';
+}
