@@ -307,8 +307,13 @@
   top: 0;
   right: 0;
 
-  display: block;
+  display: inline-block;
   width: 16px;
   height: 16px;
   background-color: #fff;
+}
+
+.cafe-list__text--accent::before {
+  content: '';
+  display: none;
 }
