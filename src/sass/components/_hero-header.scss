@@ -273,6 +273,18 @@
     (min-resolution: 2dppx) {
     background-image: url('/src/images/hero-milk-768@2x.png');
   }
+
+  @media screen and (min-width: $desktop) {
+    width: 188px;
+    height: 191px;
+    background-image: url('/src/images/hero-milk-1200.png');
+
+    @media (min-device-pixel-ratio: 2),
+      (min-resolution: 192dpi),
+      (min-resolution: 2dppx) {
+      background-image: url('/src/images/hero-milk-1200@2x.png');
+    }
+  }
 }
 
 .hero-section-tablet__content {
