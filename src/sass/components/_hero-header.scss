@@ -255,6 +255,11 @@
   @media screen and (max-width: 767px) {
     display: none;
   }
+
+  @media screen and (min-width: $desktop) {
+    bottom: 45px;
+    left: 70px;
+  }
 }
 
 .hero-section-tablet__bg-milk {
