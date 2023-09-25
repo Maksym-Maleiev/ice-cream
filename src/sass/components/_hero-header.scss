@@ -299,6 +299,16 @@
   @media screen and (max-width: 767px) {
     display: none;
   }
+
+  @media screen and (min-width: $desktop) {
+    background-image: url('/src/images/hero-girl-1200.png');
+
+    @media (min-device-pixel-ratio: 2),
+      (min-resolution: 192dpi),
+      (min-resolution: 2dppx) {
+      background-image: url('/src/images/hero-girl-1200@2x.png');
+    }
+  }
 }
 
 .cafe-list {
