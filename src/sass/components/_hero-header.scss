@@ -202,6 +202,19 @@
       background-image: url('/src/images/ice-hero-768@2x.png');
     }
   }
+
+  @media screen and (min-width: $desktop) {
+    right: 450px;
+    width: 236px;
+    height: 557px;
+    background-image: url('/src/images/ice-hero-1200.png');
+
+    @media (min-device-pixel-ratio: 2),
+      (min-resolution: 192dpi),
+      (min-resolution: 2dppx) {
+      background-image: url('/src/images/ice-hero-1200@2x.png');
+    }
+  }
 }
 
 .hero-section-tablet {
