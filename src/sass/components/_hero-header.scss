@@ -78,6 +78,10 @@
   @media screen and (min-width: $tablet) {
     height: 297px;
   }
+
+  @media screen and (min-width: $desktop) {
+    height: 494px;
+  }
 }
 
 .hero-section__content {
