@@ -173,6 +173,14 @@
     width: 324px;
     height: 322px;
   }
+
+  @media screen and (min-width: $desktop) {
+    bottom: 46px;
+    right: 103px;
+
+    width: 538px;
+    height: 538px;
+  }
 }
 
 .hero-section__ice-bg {
@@ -208,7 +216,7 @@
   }
 
   @media screen and (min-width: $desktop) {
-    right: 450px;
+    right: 335px;
     width: 236px;
     height: 557px;
     background-image: url('/src/images/ice-hero-1200.png');
