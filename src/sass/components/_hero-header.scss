@@ -90,6 +90,10 @@
   bottom: 160px;
 
   z-index: 3;
+
+  @media screen and (min-width: $desktop) {
+    bottom: 292px;
+  }
 }
 
 .hero-section__title {
@@ -258,7 +262,6 @@
 
   @media screen and (min-width: $desktop) {
     bottom: 45px;
-    left: 70px;
   }
 }
 
