@@ -109,9 +109,8 @@
 
   @media screen and (min-width: $tablet) {
     width: 162px;
-    font-size: 22px;
-    font-weight: 400;
-    line-height: 1.14;
+
+    @include fontStyles(22px, 400, 1.14);
     letter-spacing: 0.88px;
   }
 
