@@ -116,9 +116,8 @@
 
   @media screen and (min-width: $desktop) {
     width: 277px;
-    font-size: 38px;
-    font-weight: 400;
-    line-height: 1.12;
+
+    @include fontStyles(38px, 400, 1.12);
     letter-spacing: 1.52px;
   }
 
