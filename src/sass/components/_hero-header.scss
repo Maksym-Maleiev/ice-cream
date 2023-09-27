@@ -393,7 +393,5 @@
 }
 
 .site-nav-list__link {
-  font-size: 16px;
-  font-weight: 700;
-  line-height: 1.31;
+  @include fontStyles(16px, 700, 1.31);
 }
