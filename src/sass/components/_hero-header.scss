@@ -397,7 +397,13 @@
 }
 
 .site-nav-list__link {
+  color: #fff;
+
   @extend %link;
 
   @include fontStyles(16px, 700, 1.31);
+
+  &--current {
+    color: #d41443;
+  }
 }
