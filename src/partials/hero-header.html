@@ -4,20 +4,44 @@
     <nav class="site-nav">
       <a href="/src/index.html" class="logo"> </a>
 
+      <ul class="site-nav-list">
+        <li class="site-nav-list__item"></li>
+        <li class="site-nav-list__item"></li>
+        <li class="site-nav-list__item"></li>
+        <li class="site-nav-list__item"></li>
+      </ul>
+
       <div class="site-nav__wrapper">
         <!-- MENU TOGGLE -->
-        <button class="menu-toggle js-open-menu" aria-expanded="false" aria-controls="mobile-menu">
+        <button
+          class="menu-toggle js-open-menu"
+          aria-expanded="false"
+          aria-controls="mobile-menu"
+        >
           <svg width="40" height="40">
             <use href="./images/sprite.svg#burger"></use>
           </svg>
         </button>
 
         <!-- BUY NOW -->
-        <button class="mobile-menu__btn">Buy now
-          <svg xmlns="http://www.w3.org/2000/svg" width="8" height="10" viewBox="0 0 8 10" fill="none">
-            <path d="M1.10693 1L6.3648 5L1.10693 9" stroke="#D41443" stroke-width="2" stroke-linecap="round"
-              stroke-linejoin="round" />
-          </svg></button>
+        <button class="mobile-menu__btn">
+          Buy now
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="8"
+            height="10"
+            viewBox="0 0 8 10"
+            fill="none"
+          >
+            <path
+              d="M1.10693 1L6.3648 5L1.10693 9"
+              stroke="#D41443"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+          </svg>
+        </button>
       </div>
     </nav>
   </div>
@@ -34,7 +58,9 @@
 
         <ul class="hero-nav">
           <li class="hero-nav__item">
-            <a class="hero-nav__btn hero-nav__btn--secondary" href="#">Products</a>
+            <a class="hero-nav__btn hero-nav__btn--secondary" href="#"
+              >Products</a
+            >
           </li>
           <li class="hero-nav__item">
             <a class="hero-nav__btn" href="#">How it's made?</a>
@@ -48,18 +74,26 @@
       <div class="hero-section-tablet">
         <div class="hero-section-tablet__bg-milk"></div>
         <div class="hero-section-tablet__content">
-          <p class="hero-section-tablet__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-            tempor incididunt ut labore et</p>
+          <p class="hero-section-tablet__text">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et
+          </p>
           <button class="btn-arrow"></button>
         </div>
       </div>
 
       <ul class="cafe-list">
         <li class="cafe-list__item">
-          <p class="cafe-list__text"><span class="cafe-list__text cafe-list__text--accent">16</span><br>cafes</p>
+          <p class="cafe-list__text">
+            <span class="cafe-list__text cafe-list__text--accent">16</span
+            ><br />cafes
+          </p>
         </li>
         <li class="cafe-list__item">
-          <p class="cafe-list__text"><span class="cafe-list__text cafe-list__text--accent">23</span><br>food trucks</p>
+          <p class="cafe-list__text">
+            <span class="cafe-list__text cafe-list__text--accent">23</span
+            ><br />food trucks
+          </p>
         </li>
       </ul>
 
