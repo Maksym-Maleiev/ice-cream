@@ -392,6 +392,10 @@
   }
 }
 
+.site-nav-list__item:not(:last-child) {
+  margin-right: 35px;
+}
+
 .site-nav-list__link {
   @extend %link;
 
