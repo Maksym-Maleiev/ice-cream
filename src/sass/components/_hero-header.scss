@@ -393,5 +393,7 @@
 }
 
 .site-nav-list__link {
+  @extend %link;
+
   @include fontStyles(16px, 700, 1.31);
 }
