@@ -7,6 +7,10 @@
   @media screen and (min-width: $tablet) {
     padding-top: 37px;
   }
+
+  @media screen and (min-width: $desktop) {
+    height: 665px;
+  }
 }
 
 .site-nav {
