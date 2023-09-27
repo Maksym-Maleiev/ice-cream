@@ -382,3 +382,10 @@
   content: '';
   display: none;
 }
+
+.site-nav-list {
+  @extend %list;
+  @media screen and (max-width: 1199px) {
+    display: none;
+  }
+}
