@@ -345,6 +345,10 @@
   position: absolute;
   right: 0;
   bottom: 191px;
+
+  @media screen and (min-width: $desktop) {
+    bottom: 341px;
+  }
 }
 
 .cafe-list__item:not(:last-child) {
