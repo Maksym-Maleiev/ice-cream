@@ -365,6 +365,13 @@
     @include fontStyles(28px, 400, 1.14);
     letter-spacing: 1.12px;
     text-transform: uppercase;
+
+    @media screen and (min-width: $desktop) {
+      font-size: 46px;
+      font-weight: 400;
+      line-height: 1.15;
+      letter-spacing: 1.84px;
+    }
   }
 }
 
