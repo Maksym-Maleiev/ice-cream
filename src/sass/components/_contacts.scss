@@ -182,6 +182,11 @@
     background-color: #d41342;
     color: #fff;
 
+    &:hover,
+    &:focus {
+      background-color: #c21842;
+    }
+
     @media screen and (max-width: 767px) {
       margin-bottom: 10px;
     }
