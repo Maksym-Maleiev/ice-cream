@@ -168,6 +168,11 @@
   text-align: center;
   border-radius: 22px;
 
+  &:hover,
+  &:focus {
+    background-color: #ecebeb;
+  }
+
   @media screen and (min-width: $tablet) {
     padding: 12px 30px;
   }
