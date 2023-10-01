@@ -54,6 +54,8 @@
 .social-nav__link {
   color: getColor('social-color');
 
+  transition: color 250ms ease-in;
+
   &:hover,
   &:focus {
     color: getColor('accent-color');
