@@ -1,0 +1,24 @@
+.backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+
+  padding: 15px 93px;
+  overflow: scroll;
+  background-color: rgba(0, 0, 0, 0.2);
+  opacity: 1;
+
+  transition: opacity 250ms ease-in, visibility 250ms ease-in;
+
+  &.is-hidden {
+    visibility: hidden;
+    opacity: 0;
+    pointer-events: none;
+
+    &.modal {
+      transform: translate(-50%, -50%), scale(1.1);
+    }
+  }
+}
