@@ -53,8 +53,8 @@
   left: 42px;
   transform: translateY(-50%);
 
-  font-size: 12px;
-  line-height: 1.17;
+  @include fontStyles(12px, 400, 1.17);
+
   letter-spacing: 0.01em;
 
   transition: transform 250ms ease-in;
