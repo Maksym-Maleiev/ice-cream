@@ -22,3 +22,46 @@
     max-width: 528px;
   }
 }
+
+.close-button {
+  @include centeredFlex($type: inline-flex);
+
+  padding: 6px;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  color: getColor('black-color');
+  background: getColor('white-color');
+  border: 1px solid rgba(0, 0, 0, 0.1);
+
+  transition: border-color $transition-duration $timing-function;
+
+  @extend %button;
+
+  &:hover,
+  &:focus {
+    border-color: getColor('accent-color');
+  }
+
+  @media screen and (max-width: 479px) {
+    margin-left: calc(100% - 38px);
+    margin-right: 8px;
+    margin-top: 8px;
+  }
+
+  @media screen and (min-width: $mobile) {
+    position: absolute;
+    top: 8px;
+    right: 8px;
+  }
+}
+
+.close-button__icon {
+  fill: currentColor;
+  transition: fill 250ms ease-in;
+
+  .close-button:hover &,
+  .close-button:focus & {
+    fill: getColor('accent-color');
+  }
+}
