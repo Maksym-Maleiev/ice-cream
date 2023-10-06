@@ -53,15 +53,17 @@
   left: 42px;
   transform: translateY(-50%);
 
+  color: getColor('secondary-color');
   font-size: 12px;
   font-weight: 400;
   line-height: 1.17;
   letter-spacing: 0.01em;
 
-  transition: transform 250ms ease-in;
+  transition: transform 250ms ease-in, color 250ms ease-in;
 
   .form__field:focus-within > & {
     transform: translate(-30px, -40px);
+    color: getColor('accent-color');
   }
 
   .form__input:not(:placeholder-shown) + & {
