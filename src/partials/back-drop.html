@@ -6,11 +6,23 @@
       </svg>
     </button>
 
-    <form action="javascript:void(0);" method="post" class="form js-speaker-form" autocomplete="off">
+    <form
+      action="javascript:void(0);"
+      method="post"
+      class="form js-speaker-form"
+      autocomplete="off"
+    >
       <b class="form__title">Leave your details, we will call you back</b>
 
       <label class="form__field">
-        <input type="text" name="user-name" class="form__input" placeholder=" " required minlength="3" />
+        <input
+          type="text"
+          name="user-name"
+          class="form__input"
+          placeholder=" "
+          required
+          minlength="3"
+        />
         <span class="form__label">Name</span>
         <svg class="form__icon">
           <use href="./images/sprite.svg#person"></use>
@@ -18,7 +30,13 @@
       </label>
 
       <label class="form__field">
-        <input type="tel" name="phone" class="form__input" placeholder=" " required />
+        <input
+          type="tel"
+          name="phone"
+          class="form__input"
+          placeholder=" "
+          required
+        />
         <span class="form__label">Phone</span>
         <svg class="form__icon">
           <use href="./images/sprite.svg#phone"></use>
@@ -26,7 +44,13 @@
       </label>
 
       <label for="" class="form__field form__field--margin">
-        <input type="email" name="email" class="form__input" placeholder=" " required />
+        <input
+          type="email"
+          name="email"
+          class="form__input"
+          placeholder=" "
+          required
+        />
         <span class="form__label">Email</span>
         <svg class="form__icon">
           <use href="./images/sprite.svg#email"></use>
@@ -35,16 +59,28 @@
 
       <label class="form__field textarea__field">
         <span class="comment__label">Comment</span>
-        <textarea class="comment" name="comment" rows="6" placeholder="Enter text"></textarea>
+        <textarea
+          class="comment"
+          name="comment"
+          rows="6"
+          placeholder="Enter text"
+        ></textarea>
       </label>
 
       <label class="form__field policy__field">
-        <input class="checkbox visually-hidden" type="checkbox" name="policy" required />
+        <input
+          class="checkbox visually-hidden"
+          type="checkbox"
+          name="policy"
+          required
+        />
         <svg class="checkbox__icon">
-          <use href="./images/sprite.svg#check"></use>
+          <use href="/src/images/sprite.svg#check"></use>
         </svg>
-        <span class="policy__label">I agree with the newsletter and accept
-          <a href="#" class="policy__accent">Agreement conditions</a></span>
+        <span class="policy__label"
+          >I agree with the newsletter and accept
+          <a href="#" class="policy__accent">Agreement conditions</a></span
+        >
       </label>
 
       <button class="button submit-button" type="submit">Send</button>
