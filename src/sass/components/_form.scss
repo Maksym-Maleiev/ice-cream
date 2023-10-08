@@ -151,9 +151,7 @@
 .policy__label {
   margin-left: 8px;
 
-  font-size: 12px;
-  font-weight: 400;
-  line-height: 1.17;
+  @include fontStyles(12px, 400, 1.17);
   letter-spacing: 0.36px;
 
   @media screen and (min-width: $mobile) {
