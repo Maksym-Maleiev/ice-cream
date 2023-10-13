@@ -3,6 +3,9 @@
 }
 
 .image-slider__image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   margin-bottom: 29px;
 }
 
@@ -31,6 +34,8 @@
   font-size: 12px;
   font-weight: 500;
   line-height: 2.58;
+
+  text-decoration: solid underline #e1e1e1 2px;
 }
 
 .review__icon {
