@@ -23,6 +23,13 @@
 }
 
 // Review content
+.review {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
 .review__content {
   padding: 35px 65px;
   margin-bottom: 30px;
@@ -38,11 +45,22 @@
   text-decoration: solid underline #e1e1e1 2px;
 }
 
-.review__icon {
-  display: block;
-  width: 32px;
+.review-list {
+  @extend %list;
+
+  display: flex;
+  margin-bottom: 18px;
+}
+
+.review-list__icon {
+  width: 4px;
   height: 4px;
-  fill: getColor('accent-color');
+  background-color: getColor('accent-color');
+  border-radius: 50%;
+
+  &:not(:last-child) {
+    margin-right: 10px;
+  }
 }
 
 .review__name {
