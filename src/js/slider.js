@@ -1,5 +1,5 @@
 // Install swiper-slider
-new Swiper(""), {
+new Swiper(".image-slider"), {
   // navigation
   navigation: {
     nextEl: ".swiper-button-next",
