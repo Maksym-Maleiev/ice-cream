@@ -6,18 +6,11 @@
   max-width: 100%;
 }
 
-/* Arrows */
-.image-slider .swiper-button-prev::after,
-.image-slider .swiper-button-next::after {
-  color: #e7b921;
-  font-size: 80px;
-}
-
 /* Pagination */
 .image-slider .swiper-pagination-bullet {
   width: 20px;
   height: 20px;
   line-height: 20px;
   font-size: 14px;
-  background-color: #e7b921;
+  background-color: #d9d9d9;
 }
