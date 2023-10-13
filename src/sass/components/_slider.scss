@@ -1,5 +1,5 @@
 .image-slider__wrapper {
-  padding: 0px 0px 30px;
+  padding: 0px 0px 60px;
 }
 
 .image-slider__image {
@@ -43,4 +43,13 @@
   width: 32px;
   height: 4px;
   fill: getColor('accent-color');
+}
+
+.review__name {
+  color: getColor('secondary-color');
+
+  text-align: center;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.86;
 }
