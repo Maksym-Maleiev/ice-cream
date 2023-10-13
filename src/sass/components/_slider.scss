@@ -1,16 +1,41 @@
+.image-slider__wrapper {
+  padding: 0px 0px 30px;
+}
+
 .image-slider__image {
-  text-align: center;
+  margin-bottom: 29px;
 }
 
 .image-slider__image img {
   max-width: 100%;
 }
 
-/* Pagination */
+// Pagination
 .image-slider .swiper-pagination-bullet {
   width: 20px;
   height: 20px;
   line-height: 20px;
   font-size: 14px;
   background-color: getColor('accent-color');
+}
+
+// Review content
+.review__content {
+  padding: 35px 65px;
+  margin-bottom: 30px;
+
+  color: getColor('secondary-color');
+  background-color: #fafafa;
+
+  text-align: center;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 2.58;
+}
+
+.review__icon {
+  display: block;
+  width: 32px;
+  height: 4px;
+  fill: getColor('accent-color');
 }
