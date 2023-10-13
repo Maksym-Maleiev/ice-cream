@@ -9,4 +9,7 @@ new Swiper(".image-slider", {
     // Dynamic bullets
     dynamicBullets: true,
   },
+
+   // Space between slides
+  spaceBetween: 30,
 });
