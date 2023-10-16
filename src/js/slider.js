@@ -12,4 +12,13 @@ new Swiper(".image-slider", {
 
    // Space between slides
   spaceBetween: 30,
+
+  // Autoplay
+  autoplay: {
+    delay: 1000,
+    // stop on last slide
+    stopOnLastSlide: false,
+    // disable on interaction
+    disableOnInteraction: false,
+  },
 });
