@@ -179,6 +179,7 @@
 
 .content {
   position: relative;
+  overflow: hidden;
 }
 
 .content__overflow {
@@ -187,7 +188,7 @@
   left: 0;
   width: 100%;
   height: 100%;
-  padding: 15px 30px;
+  padding: 5px;
 
   @include fontStyles(14px, 700, 1.5);
   letter-spacing: 0.56px;
@@ -222,6 +223,8 @@
 }
 
 .content__description {
+  position: relative;
+  overflow: hidden;
   margin-bottom: 30px;
   @include fontStyles(14px, 700, 1.5);
   letter-spacing: 0.56px;
