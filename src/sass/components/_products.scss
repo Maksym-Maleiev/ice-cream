@@ -192,12 +192,10 @@
   @include fontStyles(14px, 700, 1.5);
   letter-spacing: 0.56px;
 
-  transform: translateX(100%);
+  transform: translateX(0);
 
   &.is-hidden {
-    visibility: hidden;
-    opacity: 0;
-    pointer-events: none;
+    transform: translateX(100%);
   }
 
   @media screen and (min-width: $desktop) {
