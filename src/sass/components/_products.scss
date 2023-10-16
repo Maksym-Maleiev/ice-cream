@@ -200,7 +200,6 @@
 
   &.is-hidden {
     transform: translateX(110%);
-    z-index: 0;
   }
 
   @media screen and (min-width: $desktop) {
