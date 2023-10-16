@@ -177,6 +177,27 @@
   }
 }
 
+.content {
+  position: relative;
+}
+
+.content__overflow {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 25px 40px;
+
+  @include fontStyles(14px, 700, 1.5);
+  letter-spacing: 0.56px;
+
+  transform: translateX(100%);
+
+  @media screen and (min-width: $desktop) {
+    @include fontStyles(16px, 700, 1.76);
+    letter-spacing: 0.64px;
+  }
+}
+
 .content__title {
   margin-bottom: 30px;
   font-family: Titan One;
