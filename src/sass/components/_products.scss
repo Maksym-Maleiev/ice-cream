@@ -177,6 +177,52 @@
   }
 }
 
+.content {
+  position: relative;
+  overflow: hidden;
+}
+
+.content__overflow {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+
+  @include fontStyles(14px, 700, 1.5);
+  letter-spacing: 0.56px;
+
+  transform: translateX(0);
+  transition: transform 250ms ease;
+  z-index: 2;
+
+  &--first-product {
+    background-color: #ffb8ca;
+  }
+
+  &--second-product {
+    background-color: #f0d1a5;
+  }
+
+  &--third-product {
+    background-color: #c2e297;
+  }
+
+  &.is-hidden {
+    transform: translateX(110%);
+  }
+
+  @media screen and (min-width: $desktop) {
+    @include fontStyles(16px, 700, 1.76);
+    letter-spacing: 0.64px;
+  }
+}
+
 .content__title {
   margin-bottom: 30px;
   font-family: Titan One;
@@ -191,6 +237,8 @@
 }
 
 .content__description {
+  position: relative;
+  overflow: hidden;
   margin-bottom: 30px;
   @include fontStyles(14px, 700, 1.5);
   letter-spacing: 0.56px;
