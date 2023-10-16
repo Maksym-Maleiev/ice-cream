@@ -82,4 +82,14 @@
   fill: rgba(225, 225, 225, 1);
 
   z-index: -1;
+
+  @media screen and (min-width: $tablet) {
+    top: 30px;
+    left: 40px;
+  }
+
+  @media screen and (min-width: $desktop) {
+    top: 32px;
+    left: 50px;
+  }
 }
