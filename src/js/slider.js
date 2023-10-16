@@ -14,6 +14,7 @@ new Swiper(".image-slider", {
   spaceBetween: 30,
 
   // Autoplay
+  /*
   autoplay: {
     delay: 1000,
     // stop on last slide
@@ -21,7 +22,7 @@ new Swiper(".image-slider", {
     // disable on interaction
     disableOnInteraction: false,
   },
-
+*/
   // Speed
   speed: 800,
 
