@@ -205,6 +205,14 @@
     background-color: #ffb8ca;
   }
 
+  &--second-product {
+    background-color: #f0d1a5;
+  }
+
+  &--third-product {
+    background-color: #c2e297;
+  }
+
   &.is-hidden {
     transform: translateX(110%);
   }
