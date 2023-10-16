@@ -1,7 +1,7 @@
 (() => {
   const refs = {
     openOverflowBtn: document.querySelector('[data-overflow-open]'),
-    closeOverflowBtn: document.querySelector('[data-oveflow-close]'),
+    closeOverflowBtn: document.querySelector('[data-overflow-close]'),
     overflow: document.querySelector('[data-overflow]'),
   };
 
