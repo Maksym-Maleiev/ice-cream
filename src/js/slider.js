@@ -23,7 +23,7 @@ new Swiper(".image-slider", {
   },
 
   // Speed
-  speed: 800,
+  speed: 1000,
 
   // Effects
   // Correspondence
