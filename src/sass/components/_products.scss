@@ -192,10 +192,14 @@
   @include fontStyles(14px, 700, 1.5);
   letter-spacing: 0.56px;
 
+  background-color: getColor('accent-color');
   transform: translateX(0);
 
+  z-index: 2;
+
   &.is-hidden {
-    transform: translateX(100%);
+    transform: translateX(110%);
+    z-index: 0;
   }
 
   @media screen and (min-width: $desktop) {
