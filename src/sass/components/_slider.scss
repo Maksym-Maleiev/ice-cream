@@ -24,7 +24,6 @@
 
 // Review content
 .review {
-  position: relative;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -32,6 +31,7 @@
 }
 
 .review__content {
+  position: relative;
   padding: 35px 65px;
   margin-bottom: 30px;
 
@@ -44,6 +44,8 @@
   line-height: 2.58;
 
   text-decoration: solid underline #e1e1e1 2px;
+
+  z-index: 1;
 }
 
 .review-list {
@@ -77,5 +79,7 @@
   position: absolute;
   top: 0;
   left: 0;
-  fill: #e1e1e1;
+  fill: rgba(225, 225, 225, 1);
+
+  z-index: 0;
 }
