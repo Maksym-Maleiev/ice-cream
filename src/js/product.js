@@ -4,9 +4,9 @@
     overflow: document.querySelector('[data-oveflow]'),
   };
 
-  refs.openOverflowBtn.addEventListener('click', toggleModal);
+  refs.openOverflowBtn.addEventListener('click', toggleOverflow);
 
-  function toggleModal() {
+  function toggleOverflow() {
     document.body.classList.toggle('overflow-open');
     refs.overflow.classList.toggle('is-hidden');
   }
