@@ -21,4 +21,11 @@ new Swiper(".image-slider", {
     // disable on interaction
     disableOnInteraction: false,
   },
+
+  // Speed
+  speed: 800,
+
+  // Effects
+  // Correspondence
+  effect: "slide",
 });
