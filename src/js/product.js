@@ -1,7 +1,7 @@
 (() => {
   const refs = {
     openOverflowBtn: document.querySelector('[data-overflow-open]'),
-    overflow: document.querySelector('[data-oveflow]'),
+    overflow: document.querySelector('[data-overflow]'),
   };
 
   refs.openOverflowBtn.addEventListener('click', toggleOverflow);
