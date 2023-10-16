@@ -24,6 +24,7 @@
 
 // Review content
 .review {
+  position: relative;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -70,4 +71,11 @@
   font-size: 14px;
   font-weight: 500;
   line-height: 1.86;
+}
+
+.review__icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  fill: #e1e1e1;
 }
