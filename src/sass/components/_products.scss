@@ -185,12 +185,20 @@
   position: absolute;
   top: 0;
   left: 0;
+  width: 100%;
+  height: 100%;
   padding: 15px 30px;
 
   @include fontStyles(14px, 700, 1.5);
   letter-spacing: 0.56px;
 
   transform: translateX(100%);
+
+  &.is-hidden {
+    visibility: hidden;
+    opacity: 0;
+    pointer-events: none;
+  }
 
   @media screen and (min-width: $desktop) {
     @include fontStyles(16px, 700, 1.76);
