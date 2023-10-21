@@ -82,7 +82,12 @@
   }
 }
 
-@keyframes scale125 {
+@keyframes changeScale {
   0% {
+    transform: scale(0);
+  }
+
+  33% {
+    transform: scale(125%);
   }
 }
