@@ -7,6 +7,8 @@
   grid-auto-flow: dense;
 
   gap: 5px;
+
+  animation: changeScale 500ms ease-in-out;
 }
 
 .grid__item {
@@ -84,7 +86,7 @@
 
 @keyframes changeScale {
   0% {
-    transform: scale(0);
+    transform: scale(100%);
   }
 
   33% {
@@ -92,5 +94,10 @@
   }
 
   66% {
+    transform: scale(75%);
+  }
+
+  100% {
+    transform: scale(100%);
   }
 }
