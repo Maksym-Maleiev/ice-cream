@@ -2,7 +2,7 @@
   @extend %list;
 
   display: grid;
-  grid-template-columns: [start] 1fr [col2] 1fr [col3] 1fr [col4] 1fr [col5] 1fr [col6] 1fr [col7] 1fr [col-end];
+  grid-template-columns: [start] 130px [col2] 130px [col3] 130px [col4] 130px [col5] 130px [col6] 130px [col7] 130px [col-end];
   grid-template-rows: [start] 28px [row2] 45px [row3] 1fr [row4] 33px [row5] 45px [row6] 1fr [row7] 33px [row8] 45px [row9] 1fr [row-end];
   grid-auto-flow: dense;
 
@@ -10,11 +10,8 @@
 }
 
 .grid__item {
-  font-size: 30px;
-  line-height: 30px;
-  text-align: center;
-  padding: 50px;
-  background-color: darkorchid;
+  width: 130px;
+  height: 130px;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -42,9 +39,10 @@
   }
 
   &--3 {
+    width: 260px;
+    height: 260px;
     grid-row: 1 / 7;
     grid-column: 3 / 5;
-    line-height: 140px;
     background-color: hotpink;
     background-image: url('/src/images/gallery_03.jpg');
 
