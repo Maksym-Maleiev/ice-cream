@@ -7,8 +7,6 @@
   grid-auto-flow: dense;
 
   gap: 5px;
-
-  animation: changeScale 1000ms linear infinite alternate;
 }
 
 .grid__item {
@@ -25,12 +23,16 @@
     grid-column: 1 / 2;
     align-self: end;
     background-color: darkblue;
+
+    animation: changeScale 1000ms linear infinite alternate;
   }
 
   &--2 {
     grid-row: 3 / 6;
     grid-column: 2 / 3;
     background-color: darkgoldenrod;
+
+    animation: changeScale 1000ms linear 250ms infinite alternate;
   }
 
   &--3 {
@@ -38,12 +40,16 @@
     grid-column: 3 / 5;
     line-height: 140px;
     background-color: hotpink;
+
+    animation: changeScale 1000ms linear 300ms infinite alternate;
   }
 
   &--4 {
     grid-row: 3 / 6;
     grid-column: 5 / 6;
     background-color: tomato;
+
+    animation: changeScale 1000ms linear 350ms infinite alternate;
   }
 
   &--5 {
