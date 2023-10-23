@@ -20,14 +20,16 @@
 }
 
 .grid__item {
-  width: 130px;
-  height: 130px;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-
-  border-radius: 25px;
   overflow: hidden;
+
+  @media screen and (min-width: $desktop) {
+    width: 130px;
+    height: 130px;
+    border-radius: 25px;
+  }
 
   &--1 {
     grid-row: 4 / 7;
