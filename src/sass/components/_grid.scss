@@ -3,7 +3,7 @@
 
   display: grid;
   grid-template-columns: [start] 37px [col2] 37px [col3] 37px [col4] 37px [col5] 37px [col6] 37px [col7] 37px [col-end];
-  grid-template-rows: [start] 20px [row2] 33px [row3] 1fr [row4] 24px [row5] 33px [row6] 1fr [row7] 24px [row8] 33px [row9] 1fr [row-end];
+  grid-template-rows: [start] 8px [row2] 13px [row3] 1fr [row4] 9px [row5] 13px [row6] 1fr [row7] 9px [row8] 13px [row9] 1fr [row-end];
 
   grid-auto-flow: dense;
 
