@@ -2,7 +2,7 @@
   @extend %list;
 
   display: grid;
-  grid-template-columns: [start] 94px [col2] 94px [col3] 94px [col4] 94px [col5] 94px [col6] 94px [col7] 94px [col-end];
+  grid-template-columns: [start] 37px [col2] 37px [col3] 37px [col4] 37px [col5] 37px [col6] 37px [col7] 37px [col-end];
   grid-template-rows: [start] 20px [row2] 33px [row3] 1fr [row4] 24px [row5] 33px [row6] 1fr [row7] 24px [row8] 33px [row9] 1fr [row-end];
 
   grid-auto-flow: dense;
