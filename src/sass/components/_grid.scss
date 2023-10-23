@@ -6,7 +6,7 @@
   grid-template-rows: [start] 28px [row2] 45px [row3] 1fr [row4] 33px [row5] 45px [row6] 1fr [row7] 33px [row8] 45px [row9] 1fr [row-end];
   grid-auto-flow: dense;
 
-  gap: 5px;
+  gap: 10px;
 }
 
 .grid__item {
