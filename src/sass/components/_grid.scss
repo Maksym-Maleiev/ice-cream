@@ -2,11 +2,14 @@
   @extend %list;
 
   display: grid;
-  grid-template-columns: [start] 130px [col2] 130px [col3] 130px [col4] 130px [col5] 130px [col6] 130px [col7] 130px [col-end];
-  grid-template-rows: [start] 28px [row2] 45px [row3] 1fr [row4] 33px [row5] 45px [row6] 1fr [row7] 33px [row8] 45px [row9] 1fr [row-end];
-  grid-auto-flow: dense;
 
-  gap: 10px;
+  @media screen and (min-width: $desktop) {
+    grid-template-columns: [start] 130px [col2] 130px [col3] 130px [col4] 130px [col5] 130px [col6] 130px [col7] 130px [col-end];
+    grid-template-rows: [start] 28px [row2] 45px [row3] 1fr [row4] 33px [row5] 45px [row6] 1fr [row7] 33px [row8] 45px [row9] 1fr [row-end];
+    grid-auto-flow: dense;
+
+    gap: 10px;
+  }
 }
 
 .grid__item {
