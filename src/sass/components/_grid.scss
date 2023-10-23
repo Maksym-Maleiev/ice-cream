@@ -57,14 +57,22 @@
   }
 
   &--3 {
-    width: 265px;
-    height: 260px;
     grid-row: 1 / 7;
     grid-column: 3 / 5;
     background-color: hotpink;
     background-image: url('/src/images/gallery_03.jpg');
 
     animation: changeScale 500ms linear 300ms infinite alternate;
+
+    @media screen and (min-width: $tablet) {
+      width: 188px;
+      height: 188px;
+    }
+
+    @media screen and (min-width: $desktop) {
+      width: 265px;
+      height: 260px;
+    }
   }
 
   &--4 {
