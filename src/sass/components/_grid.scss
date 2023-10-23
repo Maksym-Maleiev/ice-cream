@@ -26,7 +26,7 @@
     background-color: darkblue;
     background-image: url('/src/images/gallery_01.jpg');
 
-    animation: changeScale 1000ms linear infinite alternate;
+    animation: changeScale 500ms linear infinite alternate;
   }
 
   &--2 {
@@ -35,7 +35,7 @@
     background-color: darkgoldenrod;
     background-image: url('/src/images/gallery_02.jpg');
 
-    animation: changeScale 1000ms linear 250ms infinite alternate;
+    animation: changeScale 500ms linear 250ms infinite alternate;
   }
 
   &--3 {
@@ -46,7 +46,7 @@
     background-color: hotpink;
     background-image: url('/src/images/gallery_03.jpg');
 
-    animation: changeScale 1000ms linear 300ms infinite alternate;
+    animation: changeScale 500ms linear 300ms infinite alternate;
   }
 
   &--4 {
@@ -55,7 +55,7 @@
     background-color: tomato;
     background-image: url('/src/images/gallery_04.jpg');
 
-    animation: changeScale 1000ms linear 400ms infinite alternate;
+    animation: changeScale 500ms linear 400ms infinite alternate;
   }
 
   &--5 {
@@ -64,7 +64,7 @@
     background-color: crimson;
     background-image: url('/src/images/gallery_05.jpg');
 
-    animation: changeScale 1000ms linear 500ms infinite alternate;
+    animation: changeScale 500ms linear 500ms infinite alternate;
   }
 
   &--6 {
@@ -74,7 +74,7 @@
     background-color: cornflowerblue;
     background-image: url('/src/images/gallery_06.jpg');
 
-    animation: changeScale 1000ms linear 600ms infinite alternate;
+    animation: changeScale 500ms linear 600ms infinite alternate;
   }
 
   &--7 {
@@ -83,7 +83,7 @@
     background-color: indigo;
     background-image: url('/src/images/gallery_07.jpg');
 
-    animation: changeScale 1000ms linear 700ms infinite alternate;
+    animation: changeScale 500ms linear 700ms infinite alternate;
   }
 
   &--8 {
@@ -92,7 +92,7 @@
     background-color: aqua;
     background-image: url('/src/images/gallery_08.jpg');
 
-    animation: changeScale 1000ms linear 800ms infinite alternate;
+    animation: changeScale 500ms linear 800ms infinite alternate;
   }
 
   &--9 {
@@ -101,7 +101,7 @@
     background-color: deeppink;
     background-image: url('/src/images/gallery_09.jpg');
 
-    animation: changeScale 1000ms linear 900ms infinite alternate;
+    animation: changeScale 500ms linear 900ms infinite alternate;
   }
 
   &--10 {
@@ -110,7 +110,7 @@
     background-color: navy;
     background-image: url('/src/images/gallery_10.jpg');
 
-    animation: changeScale 1000ms linear 1000ms infinite alternate;
+    animation: changeScale 500ms linear 1000ms infinite alternate;
   }
 }
 
