@@ -6,7 +6,7 @@
 
   @media screen and (min-width: $tablet) {
     grid-template-columns: [start] 94px [col2] 94px [col3] 94px [col4] 94px [col5] 94px [col6] 94px [col7] 94px [col-end];
-    grid-template-rows: [start] 28px [row2] 45px [row3] 1fr [row4] 33px [row5] 45px [row6] 1fr [row7] 33px [row8] 45px [row9] 1fr [row-end];
+    grid-template-rows: [start] 20px [row2] 33px [row3] 1fr [row4] 24px [row5] 33px [row6] 1fr [row7] 24px [row8] 33px [row9] 1fr [row-end];
 
     gap: 7px;
   }
