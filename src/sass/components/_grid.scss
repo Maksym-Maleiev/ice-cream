@@ -25,6 +25,12 @@
   background-position: center;
   overflow: hidden;
 
+  @media screen and (min-width: $tablet) {
+    width: 94px;
+    height: 94px;
+    border-radius: 15px;
+  }
+
   @media screen and (min-width: $desktop) {
     width: 130px;
     height: 130px;
