@@ -13,6 +13,8 @@ new Swiper(".image-slider", {
    // Space between slides
   spaceBetween: 30,
 
+  loop: true,
+
   // Autoplay
   autoplay: {
     delay: 1000,
