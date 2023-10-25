@@ -296,6 +296,12 @@
 .hero-section-tablet__text {
   margin-bottom: 7px;
   @include fontStyles(8px, 400, 1.5);
+
+  @media screen and (min-width: $desktop) {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.4;
+  }
 }
 
 .hero-section-tablet .btn-arrow {
