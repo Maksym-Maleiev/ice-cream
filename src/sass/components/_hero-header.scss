@@ -291,6 +291,10 @@
 
 .hero-section-tablet__content {
   width: 114px;
+
+  @media screen and (min-width: $desktop) {
+    width: 200px;
+  }
 }
 
 .hero-section-tablet__text {
