@@ -1,15 +1,15 @@
-.gallery {
-  background-image: linear-gradient(to bottom, #fff5f6 47%, #fff 47%);
+// .gallery {
+//   background-image: linear-gradient(to bottom, #fff5f6 47%, #fff 47%);
 
-  @media screen and (min-width: $tablet) {
-    background-image: linear-gradient(to bottom, #fff5f6 45%, #fff 45%);
-  }
+//   @media screen and (min-width: $tablet) {
+//     background-image: linear-gradient(to bottom, #fff5f6 45%, #fff 45%);
+//   }
 
-  @media screen and (min-width: $desktop) {
-    background-image: linear-gradient(to bottom, #fff5f6 44%, #fff 44%);
-  }
-}
+//   @media screen and (min-width: $desktop) {
+//     background-image: linear-gradient(to bottom, #fff5f6 44%, #fff 44%);
+//   }
+// }
 
-.gallery__thumb {
-  @include centeredFlex();
-}
+// .gallery__thumb {
+//   @include centeredFlex();
+// }
