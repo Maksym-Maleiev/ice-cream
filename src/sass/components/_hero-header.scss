@@ -374,9 +374,6 @@
 
   @media screen and (min-width: $desktop) {
     @include fontStyles(14px, 400, 1.29);
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 1.29;
   }
 
   &--accent {
