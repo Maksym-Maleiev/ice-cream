@@ -66,7 +66,6 @@
   &--1 {
     grid-row: 4 / 7;
     grid-column: 1 / 2;
-    // align-self: end;
     background-color: darkblue;
     background-image: url('/src/images/gallery_01.jpg');
 
@@ -125,7 +124,6 @@
   &--6 {
     grid-row: 4 / 7;
     grid-column: 7 / col-end;
-    // align-self: end;
     background-color: cornflowerblue;
     background-image: url('/src/images/gallery_06.jpg');
 
