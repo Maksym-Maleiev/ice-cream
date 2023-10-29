@@ -64,8 +64,9 @@
   padding: 11px 0px 11px;
 
   color: #fff;
-
   @include fontStyles(14px, 700, 1.29);
+
+  transition: color 250ms ease-in;
 
   &:hover,
   &:focus {
