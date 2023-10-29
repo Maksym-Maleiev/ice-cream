@@ -161,6 +161,10 @@
 
   @include fontStyles(8px, 400, 1.25);
 
+  @media screen and (min-width: $desktop) {
+    font-size: 18px;
+  }
+
   &--secondary {
     color: getColor('main-color');
     background-color: getColor('accent-color');
