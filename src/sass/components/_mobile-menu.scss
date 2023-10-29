@@ -66,4 +66,9 @@
   color: #fff;
 
   @include fontStyles(14px, 700, 1.29);
+
+  &:hover,
+  &:focus {
+    color: getColor('accent-color');
+  }
 }
