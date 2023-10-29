@@ -49,8 +49,14 @@
 
   color: getColor('accent-color');
   text-align: center;
-
   @include fontStyles(16px, 700, 1.5);
+
+  transition: background-color 250ms ease-in;
+
+  &:hover,
+  &:focus {
+    background-color: rgb(236, 235, 235);
+  }
 }
 
 .mobile-menu__btn > svg {
