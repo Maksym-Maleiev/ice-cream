@@ -152,7 +152,6 @@
   margin-left: 8px;
 
   @include fontStyles(12px, 400, 1.17);
-  letter-spacing: 0.36px;
 
   @media screen and (min-width: $mobile) {
     white-space: nowrap;
