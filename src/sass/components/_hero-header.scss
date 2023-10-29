@@ -161,8 +161,15 @@
 
   @include fontStyles(8px, 400, 1.25);
 
+  transition: background-color 250ms ease-in;
+
   @media screen and (min-width: $desktop) {
     @include fontStyles(14px, 400, 1.29);
+  }
+
+  &:hover,
+  &:focus {
+    background-color: rgb(236, 235, 235);
   }
 
   &--secondary {
