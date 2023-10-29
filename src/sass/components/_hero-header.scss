@@ -175,6 +175,11 @@
   &--secondary {
     color: getColor('main-color');
     background-color: getColor('accent-color');
+
+    &:hover,
+    &:focus {
+      background-color: #c21842;
+    }
   }
 }
 
