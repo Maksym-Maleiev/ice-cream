@@ -314,6 +314,11 @@
   width: 18px;
   height: 18px;
   background-size: contain;
+
+  @media screen and (min-width: $desktop) {
+    width: 26px;
+    height: 26px;
+  }
 }
 
 .hero-section__girl {
